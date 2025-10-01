@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta name="description" content="La mejor aplicación de galería de fotos con IA para organizar y buscar imágenes fácilmente.">
+	<title>Gallery Swipe AI</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<header class="site-header">
+		<nav class="main-nav" aria-label="Navegación principal">
+			<a href="index.html">Inicio</a>
+			<a href="features.html">Características</a>
+			<a href="download.html">Descargar</a>
+			<a href="contact.html">Contacto</a>
+		</nav>
+
+		<div class="hero" role="banner">
+			<img src="logo.png" alt="Logo Gallery Swipe AI" width="80" height="80">
+			<h1>Gallery Swipe AI</h1>
+			<p class="muted">La mejor aplicación de galería de fotos con IA para organizar y buscar imágenes fácilmente.</p>
+			<a class="button primary" href="https://example.com/download" target="_blank" rel="noopener">Descargar ahora</a>
+		</div>
+	</header>
+
+	<main class="main-content">
+		<section class="hero-section" aria-labelledby="hero-title">
+			<div class="hero-content">
+				<img src="GalleySwipe.png" alt="Captura de pantalla de la aplicación" />
+				<div class="hero-text">
+					<h2 id="hero-title">Organiza tus fotos con IA</h2>
+					<p>Utiliza la inteligencia artificial para categorizar y etiquetar automáticamente tus fotos.</p>
+				</div>
+			</div>
+
+			<form class="search-form" role="search" aria-label="Buscar fotos" method="get" action="/search">
+				<label for="site-search" class="visually-hidden">Buscar fotos</label>
+				<div class="search-input-wrapper">
+					<svg width="20" height="20" aria-hidden="true" focusable="false">
+						<circle cx="8" cy="8" r="6" stroke="currentColor" stroke-width="1.5" fill="none"/>
+						<line x1="12" y1="12" x2="18" y2="18" stroke="currentColor" stroke-width="1.5"/>
+					</svg>
+					<input id="site-search" name="q" type="search" placeholder="Buscar fotos..." />
+				</div>
+				<button type="submit" class="button secondary">Buscar</button>
+			</form>
+		</section>
+
+		<section class="features-section" aria-labelledby="features-title">
+			<header>
+				<h2 id="features-title">Características principales</h2>
+			</header>
+
+			<div class="features-content">
+				<img src="screenshot2.png" alt="Vista de búsquedas avanzadas" />
+				<div class="features-text">
+					<h3>Búsqueda avanzada</h3>
+					<p>Encuentra cualquier foto en segundos con nuestra potente función de búsqueda impulsada por IA.</p>
+				</div>
+			</div>
+
+			<div class="features-list">
+				<article>
+					<h4>Etiquetado automático</h4>
+					<p>La IA etiqueta tus fotos automáticamente para que puedas encontrarlas fácilmente más tarde.</p>
+				</article>
+
+				<article>
+					<h4>Álbumes inteligentes</h4>
+					<p>Crea álbumes dinámicos basados en personas, lugares y eventos.</p>
+				</article>
+
+				<article>
+					<h4>Edición rápida</h4>
+					<p>Realiza ediciones rápidas y sencillas directamente desde la galería.</p>
+				</article>
+			</div>
+
+			<footer class="section-footer">
+				<a href="features.html" class="button secondary">Ver todas las características</a>
+			</footer>
+		</section>
+	</main>
+
+	<footer class="site-footer" role="contentinfo">
+		<p>&copy; 2024 Gallery Swipe AI. Todos los derechos reservados.</p>
+	</footer>
+</body>
+</html>
